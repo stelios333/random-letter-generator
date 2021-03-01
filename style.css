@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+.container-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+    width: 90%;
+    display: block;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flexbox-item {
+  background: grey;
+  width: 100%;
+  font: 25px sans-serif, Helvetica, Arial;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  text-align: center;
+}
+
+.flexbox-item>label {
+  cursor: pointer;
+}
+
+
+
+.generate-container {
+  text-align: center;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.generate-item-1 {
+  border-right: none;
+}
+
+.generate-item-2 {
+  border-left: none;
+}
+
+.generate {
+  user-select: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font: 20px sans-serif, Helvetica, Arial;
+  cursor: pointer;
+  background: white;
+  padding: 8px 12px;
+  border: 1px solid #0080ff;
+  border-radius: 4px;
+  outline: none;
+}
+
+.generate:focus {
+  outline: 2px solid;
+  transform: scale(0.95, 0.95);
+}
+
+.generate:hover {
+  background: #0080ff;
+}
+
+.generate:active {
+  background: #0066cc;
+  border: 1px solid #0066cc;
+}
+
+.output {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.title-container {
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+}
+
+.title-item {
+
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
