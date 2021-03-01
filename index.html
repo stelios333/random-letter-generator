@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Random letter generator</title>
+  </head>
+
+  <body>
+    <div class="container-container">
+      <div class="container">
+
+
+        <div class="flexbox title-container">
+          <div class="flexbox-item title-item">
+            Letter Case
+          </div>
+          <div class="flexbox-item title-item">
+            Language
+          </div>
+        </div>
+        <div class="flexbox">
+          <div class="flexbox-item">
+            <input type=radio name=cpt id=lowercase><label for=lowercase>Πεζά γράμματα</label>
+          </div>
+          <div class="flexbox-item">
+            <input type=radio id="greek" name='lang'><label for='greek'>Ελληνικοί Χαρακτίρες</label>
+          </div>
+        </div>
+        <div class="flexbox">
+          <div class="flexbox-item">
+            <input type='radio' name=cpt id=capital><label for='capital'>Κεφαλαία γράμματα</label>
+          </div>
+          <div class="flexbox-item">
+            <input type=radio id="english" name='lang' checked><label for='english'>Αγγλικοί χαρακτήρες</label>
+          </div>
+        </div>
+        <div class="flexbox">
+          <div class="flexbox-item">
+            <input type=radio name=cpt id=all CHECKED><label for=all>Όλα</label>
+          </div>
+          <div class="flexbox-item">
+
+          </div>
+
+        </div>
+        <div class="generate-container flexbox">
+          <div class="flexbox-item generate-item-1">
+            <button onclick=on() class="generate">
+              Δημιουργία
+            </button>
+          </div>
+          <div class="flexbox-item generate-item-2">
+            <div id="out" class="output">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
